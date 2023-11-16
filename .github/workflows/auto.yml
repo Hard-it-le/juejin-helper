@@ -19,6 +19,7 @@ env:
   WEIXIN_WEBHOOK: ${{ secrets.WEIXIN_WEBHOOK }}
   SERVERPUSHKEY: ${{ secrets.SERVERPUSHKEY }}
 
+
 jobs:
   CheckIn:
     runs-on: ubuntu-latest
